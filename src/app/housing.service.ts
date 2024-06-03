@@ -6,6 +6,10 @@ import { HousingLocation } from './housinglocation';
 })
 export class HousingService {
 
+  submitApplication(firstName: string, lastName: string, email: String) {
+    console.log(`Homes application received: firstName: ${firstName}, lastName: ${lastName}, email: ${email}.`);
+  }
+
   constructor() { }
 
   getAllHousingLocation(): HousingLocation[] {

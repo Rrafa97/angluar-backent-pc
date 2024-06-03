@@ -21,7 +21,6 @@ import { RouterModule } from '@angular/router';
       <router-outlet />
     </section>
     <section class="results">
-      <!-- <app-housing-location></app-housing-location> -->
     </section>
   </main>
   `,
